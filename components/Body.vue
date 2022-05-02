@@ -270,6 +270,7 @@ li {
         border-radius: 50%;
         margin-bottom: 20px;
         width: 70px;
+        height: 70px;
     }
 
     h3 {
