@@ -44,6 +44,11 @@ export default {
 
 .logo_container {
     @include flex-space-between-center;
+
+    img {
+        width: 105px;
+        height: 28px;
+    }
 }
 
 .menu {
