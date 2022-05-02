@@ -26,7 +26,7 @@
     width: 100%;
     max-width: 1170px;
     height: 650px;
-    background-image: url(@/static/images/banner.png);
+    background-image: url(@/static/images/banner.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
