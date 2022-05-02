@@ -34,9 +34,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Nunito&display=swap');
-
 .main {
     background-color: $background-color-body;
 }
