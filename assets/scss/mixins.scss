@@ -1,0 +1,63 @@
+@mixin init-state {
+    width: 100%;
+    background-color: $background-color-body;
+}
+
+@mixin flex-space-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-center-column {
+    @include flex-center-row;
+    flex-direction: column;
+}
+
+@mixin button {
+    border-radius: 80px;
+    @include regular-font-styles;
+    cursor: pointer;
+    user-select: none;
+}
+
+@mixin regular-button {
+    @include button;
+    background: #F4E041;
+}
+
+@mixin disabled-button {
+    background: #B4B4B4;
+    color: rgba(255, 255, 255, 0.87);
+    @include button;
+}
+
+@mixin hover-button {
+    background: #FFE302;
+    @include button;
+}
+
+@mixin regular-font-styles {
+    font-family: $font-nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@mixin preventing-overflow-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin input-width {
+    max-width: 380px;
+    width: 100%;
+}
